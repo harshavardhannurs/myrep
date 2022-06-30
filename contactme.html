@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Information</title>
+  </head>
+  <body>
+    <ul>
+      <li>Email:sf06@gmail.com</li>
+      <li>LinkedIn:harsha-n-urs</li>
+    </ul>
+
+    <form action="mailto:singerforever06@gmail.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>
+          Your Information
+        </legend>
+        <label>Name:</label>
+        <input type="text" name="yourName" value=""><br><br>
+        <label>Email:</label>
+        <input type="email" name="yourEmail" value=""><br><br>
+        <label>Country:</label>
+        <select name="Country" id="selectCountry">
+        <option value="">---Select your country---</option>
+        <optgroup label="South Asia">
+          <option value="Ind">India</option>
+          <option value="Sng">Singapore</option>
+        </optgroup>
+        <optgroup label="West">
+          <option value="US">USA</option>
+          <option value="GRB">Britian</option>
+        </optgroup>
+        </select><br><br>
+        <label>Select preferred Language:</label><br>
+        <label>English</label>
+        <input type="checkbox" name="language" value="En"><br>
+        <label>Mandarin</label>
+        <input type="checkbox" name="language" value="Mn"><br>
+        <label>Spanish</label>
+        <input type="checkbox" name="language" value="Esp"><br><br>
+        <label>Gender:</label><br>
+        <label>Male</label>
+        <input type="radio" name="sex" value="M"><br>
+        <label>Female</label>
+        <input type="radio" name="sex" value="F"><br><br>
+        <label>Message:</label><br>
+        <textarea name="message" rows="8" cols="80"></textarea><br>
+        <input type="submit" value="signIn">
+        <input type="reset" name="reset" value="clickForReset">
+  </fieldset>
+    </form>
+  </body>
+</html>
